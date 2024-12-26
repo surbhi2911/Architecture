@@ -81,7 +81,7 @@ function ProjectInnerList() {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        zIndex: 1000,
+        zIndex: 100000,
     };
 
     const thumbnailContainerStyle = {
