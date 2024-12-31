@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaQuoteRight } from "react-icons/fa";
 import { IoMdCheckboxOutline } from "react-icons/io";
 import Slider from "react-slick";
 import MainHeadings from "../../HOC/MainHeadings";
@@ -17,8 +16,6 @@ function Howwork() {
     autoplaySpeed: 4000,
     pauseOnHover: false,
     arrows: false,
-    dots: false,
-
     responsive: [
       {
         breakpoint: 1024,

@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  FaTruck,
-  FaTools,
-  FaWrench,
-  FaRoad,
-  FaMotorcycle,
-  FaTruckMonster,
-  FaCarCrash,
-  FaWarehouse,
-} from "react-icons/fa";
+import { FaTruck, FaTools, FaWrench, FaRoad, FaMotorcycle, FaTruckMonster, FaCarCrash, FaWarehouse } from "react-icons/fa";
 
 function Service() {
   const serviceColumns = [
@@ -49,8 +40,8 @@ function Service() {
       >
         <div className="container-lg my-5">
           <div className="about-section justify-content-center">
-            <div className="line" style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
-            <span style={{color:"rgb(90, 113, 124)"}}>OUR SERVICES</span>
+            <div className="line" style={{ color: "rgb(90, 113, 124)", borderBlockColor: "rgb(90, 113, 124)" }}></div>
+            <span style={{ color: "rgb(90, 113, 124)" }}>OUR SERVICES</span>
           </div>
           <h1 className="Discover text-dark py-2 text-center">What We Are Serving</h1>
           <div className="d-flex justify-content-center flex-wrap">
@@ -75,41 +66,6 @@ function Service() {
         </div>
       </div>
     </>
-    // <div>
-
-    //     <section id="our-services">
-    //     <div className="container">
-    //     <div class="desc ">
-    //                 <div >
-    //                     <div className="about-section ">
-    //                         <div className="line"></div>
-    //                         <span>Our Services</span>
-    //                     </div>
-    //                     <h1 className="Discover text-dark py-2">WHAT WE OFFER</h1>
-    //                 </div>
-    //             </div>
-    //     </div>
-    //         <div class="container-md">
-
-    //             <div className="services">
-    //                 {serviceColumns.map((column, colIndex) => (
-    //                     <div className="column" key={colIndex}>
-    //                         {column.map((service, index) => (
-    //                             <div className="service" key={index}>
-    //                                 <div className="service-desc">
-    //                                     <div className="service-icon service-txt">{service.icon}</div>
-    //                                     <p className="service-txt mt-3">{service.name}</p>
-    //                                 </div>
-    //                             </div>
-    //                         ))}
-    //                     </div>
-    //                 ))}
-    //             </div>
-    //             <div class="clear-fix"></div>
-    //         </div>
-
-    //     </section>
-    // </div>
   );
 }
 

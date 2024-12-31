@@ -8,7 +8,6 @@ import Mission from './Mission'
 import Awards from './Awards'
 import Contactredirect from './Contactredirect'
 import ClientLogo from '../Homepage/ClientLogo'
-import Team from './Team'
 import MainSection from '../../HOC/MainSection'
 
 function AboutusPage() {

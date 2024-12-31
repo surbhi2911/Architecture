@@ -5,7 +5,7 @@ import { ProjectList } from './ProjectListItem';
 import { Image } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { HiOutlineArrowSmRight } from 'react-icons/hi';
-import { ArrowBigLeft, ArrowBigRight, Settings, X } from 'lucide-react';
+import { ArrowBigLeft, ArrowBigRight, X } from 'lucide-react';
 
 function ProjectInnerList() {
     const { id, id2 } = useParams();
@@ -162,7 +162,7 @@ function ProjectInnerList() {
 
                     <img
                         src={selectedInnerData?.img[currentIndex]}
-                        alt={`Image ${currentIndex + 1}`}
+                        alt={`Not Found ${currentIndex + 1}`}
                         style={{ maxWidth: '90%', maxHeight: '70%' }}
                     />
 

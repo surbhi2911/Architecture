@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import MainHeadings from "../../HOC/MainHeadings";
 
 function CareerTable() {
   const jobData = [

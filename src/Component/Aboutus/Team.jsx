@@ -1,4 +1,3 @@
-import { duration } from '@mui/material';
 import React from 'react';
 import { AiOutlineGooglePlus } from 'react-icons/ai';
 import { RiInstagramLine } from 'react-icons/ri';

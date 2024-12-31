@@ -2,7 +2,6 @@ import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
-import contactVideo from "../../Assets/Video/8449347-uhd_2560_1440_25fps.mp4";
 import { BiPhoneCall } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
 import "../../Assets/Css/ContactusPage.css";
@@ -287,7 +286,7 @@ function ContactUs() {
                         </div>
                         <h3 className="py-3">Location</h3>
                         <div className="p-1">
-                        3rd Floor, Evoq, Ghod Dod Rd, opp. Narmad Library, Surat-395007
+                          3rd Floor, Evoq, Ghod Dod Rd, opp. Narmad Library, Surat-395007
                         </div>
                       </div>
                     </div>
@@ -330,7 +329,7 @@ function ContactUs() {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              title=""
+              title="Locate Us"
             ></iframe>
           </div>
         </div>

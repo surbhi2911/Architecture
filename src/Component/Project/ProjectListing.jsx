@@ -6,7 +6,7 @@ import Slider from "react-slick";
 
 function ProjectListing() {
     const { id } = useParams();
-    const data = ProjectList.filter((item) => item.id == id);
+    const data = ProjectList.filter((item) => item.id === id);
 
     const settings = {
         dots: false,

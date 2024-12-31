@@ -112,7 +112,8 @@
 
   .navigation {
     position: absolute;
-    top: 53%;
+    top: 45%;
+
   }
 
   .breadcrumb {
@@ -567,6 +568,7 @@
 }
 
 @media (max-width: 768px) {
+
   .content,
   .image_about {
     flex: 1 1 100%;
@@ -964,17 +966,21 @@
   background-size: cover;
   background-position: center;
 }
+
 .whychoose_image {
   outline: 1px solid white;
   outline-offset: -15px;
 }
+
 .whyno {
   color: #919eac;
   font-size: 50px;
   font-weight: 900;
   transition: all 0.2s ease-in-out;
 }
+
 .whyno:hover {
   color: var(--maincolor--) !important;
 }
+
 /* Whychooseus end */

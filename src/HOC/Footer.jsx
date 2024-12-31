@@ -1,5 +1,5 @@
-import { Plus } from 'lucide-react'
 import React from 'react'
+import { Plus } from 'lucide-react'
 import { IoLocation, IoMail } from 'react-icons/io5'
 import { PiPhoneCallFill } from 'react-icons/pi'
 import { Link } from 'react-router-dom'

@@ -2,41 +2,13 @@ import React from 'react'
 import HOC from '../../HOC/HOC'
 import { ProjectList } from './ProjectListItem'
 import { Link } from 'react-router-dom'
-import ArchitectureDesign from '../Homepage/ArchitectureDesign'
-
 import { Card } from 'react-bootstrap'
 import '../../Assets/Css/Project.css'
 import ClientLogo from '../Homepage/ClientLogo'
-import { CgArrowTopRightO } from 'react-icons/cg'
 import { TbCircleArrowUpRightFilled } from 'react-icons/tb'
 import MainSection from '../../HOC/MainSection'
 
 function Projectdata() {
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    slidesToShow: 3,
-    autoplay: true,
-    slidesToScroll: 1,
-
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
   return (
     <>
       <MainSection text="Projects" classs='projectsbgimg' />

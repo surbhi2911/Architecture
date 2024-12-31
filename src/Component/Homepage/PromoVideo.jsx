@@ -1,8 +1,5 @@
-import { Controls, Player } from '@lottiefiles/react-lottie-player'
 import React from 'react'
-import { BiSolidPhoneCall } from 'react-icons/bi'
 import { CiPlay1 } from 'react-icons/ci'
-import { HiOutlineArrowSmRight } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 
 function PromoVideo() {
@@ -41,15 +38,6 @@ function PromoVideo() {
                                             data-aos-duration="1800"
                                             data-aos-once="true"> <div className='whyno text-white' > 98243 31155</div></Link>
                                     </div>
-
-                                    {/* <div className="py-4">
-                                        <button type="button" className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
-                                            More Videos
-                                            <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
-                                                <HiOutlineArrowSmRight className="fs-5" />
-                                            </span>
-                                        </button>
-                                    </div> */}
                                 </div>
                             </div>
                             <div className='col-12 col-lg-7 p-3' data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
